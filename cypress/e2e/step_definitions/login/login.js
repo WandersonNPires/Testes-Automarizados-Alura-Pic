@@ -5,8 +5,8 @@ Given("I'm on the login page", () => {
 })
 
 When("I type a registered my usarName and password", () => {
-    cy.get('[formcontrolname="userName"]').type('teste');
-    cy.get('[formcontrolname="password"]').type('teste123');
+    cy.get('[formcontrolname="userName"]').type(Cypress.env('userName'));
+    cy.get('[formcontrolname="password"]').type(Cypress.env('password'));
     cy.get('[data-test="loginBtn"]').click()
 })
 
