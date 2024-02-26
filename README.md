@@ -15,3 +15,5 @@ Será criado dentro do projeto uma pasta com nome "videos" com a repodução des
 Adicionado o dublê ou reporter com mochawesome onde vai realizar o teste e trazer o resultado salvarndo a execução do teste em um HTML ou arquivo JSON.
 
 necessario instalação do mochawesome com seguinte comando = "npm install --save-dev mochawesome"
+
+Ultima atualização realizada, foi anexado dentro do "gitignore", o arquivo de configuração "cypress.env.json". Dentro desse arquivo, vamos inserir todas as informações que devem permanecer privadas no momento da integração com o Git

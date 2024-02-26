@@ -2,3 +2,4 @@ node_modules
 alurapic
 videos
 mochawesome-report
+cypress.env.json
